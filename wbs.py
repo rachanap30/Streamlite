@@ -14,8 +14,6 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
-Create a content container
 st.markdown(
     """
     <div class="container">
