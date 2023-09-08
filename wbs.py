@@ -1,6 +1,34 @@
 import streamlit as st
+import pandas as pd
+st.title('Wbsflix')
+st.markdown(
+    """
+    <style>
+        .container {
+            background-color: #141414; /* Netflix background color */
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+Create a content container
+st.markdown(
+    """
+    <div class="container">
+        <!-- Add your content here -->
+        <h2>Welcome to Wbsflix</h2>
+        <p>Discover and watch your favorite movies and TV shows.</p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
 GitHub repository URL
-github_repo_url = 'https://raw.githubusercontent.com/Kiruthika60577/Kiruthika60577/main/'
+github_repo_url = 'https://raw.githubusercontent.com/rachanap30/Streamlite/main/'
 
 URLs of your CSV files on GitHub
 movies_url = github_repo_url + 'movies.csv'
