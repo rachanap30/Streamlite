@@ -206,8 +206,6 @@ n = 10  # Number of recommendations
 recommendations = get_movie_recommendations(movies_ratings, movie_id, n)
 recommendations
 
-pip install scikit-surprise
-
 from surprise import Dataset, Reader
 from surprise.model_selection import train_test_split
 from surprise import NormalPredictor, KNNBasic, KNNWithMeans, SVD
